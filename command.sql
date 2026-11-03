@@ -42,11 +42,30 @@ CREATE TABLE users (
 );
 
 -- DML
-INSERT INTO users (id, name) VALUES (1, 'Rahul');
+INSERT INTO users (id, name) VALUES (1, 'Rahul'), (2, 'riya'), (3, 'priya') ;
 
 UPDATE users
 SET name = 'Aman'
 WHERE id = 1;
 
 -- DQL
+-- SELECT * FROM users;
+
+--delete / truncate/DROP
+-- DELETE FROM users; //delete all records
+-- -- WHERE id=1; //delete specific records
+
+
+
+-- TRUNCATE
+-- ddl command commonly used to remove all rows from a table while keeping its struct
+
+-- TRUNCATE TABLE users;
+
+
+--DROP => tables and its data remove from the database
+
+
 SELECT * FROM users;
+
+

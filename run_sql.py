@@ -5,7 +5,7 @@ connection=sqlite3.connect("company.db")
 # with open("database.sql","r") as file:
 #     sql_script=file.read()
 
-with open("command.sql","r") as file:
+with open("practical.sql","r") as file:
     sql_script=file.read()
 
 
@@ -15,7 +15,7 @@ connection.executescript(sql_script)
 
 #fetch records
 cursor=connection.cursor()
-cursor.execute("SELECT * FROM users")
+cursor.execute("SELECT * FROM employees")
 
 for row in cursor.fetchall():
     print(row)
