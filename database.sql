@@ -27,9 +27,6 @@ VALUES
 SELECT * FROM employees;
 
 
-
-
-
 -- backend connection = user registers on your application
 -- INSERT INTO users (name, email)
 -- VALUES ('Rahul', 'rahul@gmail.com');
