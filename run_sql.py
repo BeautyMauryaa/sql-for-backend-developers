@@ -15,7 +15,7 @@ connection.executescript(sql_script)
 
 #fetch records
 cursor=connection.cursor()
-cursor.execute("SELECT * FROM employees")
+cursor.execute("SELECT * FROM orders")
 
 for row in cursor.fetchall():
     print(row)
