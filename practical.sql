@@ -61,3 +61,4 @@ WHERE id = 1;
 -- - orders.order_id → Primary Key.
 -- - orders.user_id → Foreign Key.
 -- This is how you should think as a backend developer: identify entities, their unique identifiers and their relationships.
+
