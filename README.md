@@ -14,7 +14,6 @@ A structured, interview-oriented SQL learning repository focused on backend deve
 - Transactions and ACID Properties
 - SQL Injection Prevention
 - Practical SQL Coding Problems
-- Backend Developer Interview Questions
 
 ## Learning Approach
 
